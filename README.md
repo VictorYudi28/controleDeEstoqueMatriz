@@ -2,7 +2,7 @@
 
 <h2>LABORATÓRIO DE PROGRAMAÇÃO</h2>
 
-<p>) Faça um programa que receba o estoque atual de três produtos, armazenados em quatro
+<p>Faça um programa que receba o estoque atual de três produtos, armazenados em quatro
 armazéns, e coloque esses dados em uma matriz 5X3. Considerando que a última linha
 dessa matriz contém o custo de cada produto, o programa deverá calcular e mostrar:
 a. A quantidade de itens armazenados em cada armazém;
