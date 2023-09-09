@@ -14,7 +14,7 @@ public class controleDeEstoqueMatriz {
 		double maiorArmazem = 0, menorArmazem = 0;
 		int indiceMaior = 0, indiceMenor = 0;
 		double somaProduto[] = new double[3];
-		double ProdFinal = 0;
+		double custoTotalPorArmazem = 0;
 
 		for (int i = 0; i < 4; i++) {
 
@@ -141,15 +141,15 @@ public class controleDeEstoqueMatriz {
 
 		for (int i = 0; i < 4; i++) {
 
-			ProdFinal = 0;
+			custoTotalPorArmazem = 0;
 
 			for (int j = 0; j < 3; j++) {
 
-				ProdFinal += estoqueProdArmazem[i][j] * estoqueProdArmazem[4][j];
+				custoTotalPorArmazem += estoqueProdArmazem[i][j] * estoqueProdArmazem[4][j];
 
 			} // Colunas
 
-			System.out.println("Custo total no armazém ( " + (i + 1) + " ): " + formataMoeda.format(ProdFinal));
+			System.out.println("Custo total no armazém ( " + (i + 1) + " ): " + formataMoeda.format(custoTotalPorArmazem));
 
 		} // Linhas
 
